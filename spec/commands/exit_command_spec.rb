@@ -1,8 +1,4 @@
 require 'spec_helper'
-require 'commands/command'
-require 'commands/exit_command'
-require 'errors/robot_simulator_error'
-require 'errors/exit_command_error'
 
 describe ExitCommand do
   let(:command) { ExitCommand.new }

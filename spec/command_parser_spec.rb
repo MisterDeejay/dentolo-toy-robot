@@ -1,21 +1,4 @@
 require 'spec_helper'
-require 'board'
-require 'robot'
-require 'command_parser'
-require 'commands/command'
-require 'commands/place_command'
-require 'commands/move_command'
-require 'commands/left_command'
-require 'commands/right_command'
-require 'commands/report_command'
-require 'commands/exit_command'
-require 'direction_state_creator'
-require 'states/position_state'
-require 'states/x_position_state'
-require 'states/y_position_state'
-require 'states/north_state'
-require 'errors/robot_simulator_error'
-require 'errors/command_parser_error'
 
 describe CommandParser do
   describe "#parse" do

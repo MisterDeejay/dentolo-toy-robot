@@ -1,3 +1,5 @@
+require_relative 'command'
+
 class HelpCommand < Command
   def initialize
   end

@@ -1,15 +1,4 @@
 require 'spec_helper'
-require 'board'
-require 'robot'
-require 'commands/command'
-require 'commands/place_command'
-require 'states/north_state'
-require 'states/south_state'
-require 'states/position_state'
-require 'states/x_position_state'
-require 'states/y_position_state'
-require 'errors/robot_simulator_error'
-require 'errors/invalid_position_error'
 
 describe PlaceCommand do
   let(:board) { Board.new(5, 5) }

@@ -1,9 +1,4 @@
 require 'spec_helper'
-require 'direction_state_creator'
-require 'states/north_state'
-require 'states/west_state'
-require 'states/east_state'
-require 'states/south_state'
 
 describe DirectionStateCreator do
   describe "#new" do

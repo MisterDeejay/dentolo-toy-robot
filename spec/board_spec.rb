@@ -1,8 +1,4 @@
 require 'spec_helper'
-require 'board'
-require 'states/position_state'
-require 'states/x_position_state'
-require 'states/y_position_state'
 
 describe Board do
   let(:board) { Board.new(5, 5) }

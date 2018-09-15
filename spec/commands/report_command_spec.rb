@@ -1,12 +1,4 @@
 require 'spec_helper'
-require 'robot'
-require 'commands/command'
-require 'commands/report_command'
-require 'states/position_state'
-require 'states/x_position_state'
-require 'states/y_position_state'
-require 'states/north_state'
-require_relative '../shared_examples/commands'
 
 describe ReportCommand do
   it_behaves_like 'a command' do

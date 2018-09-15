@@ -1,9 +1,4 @@
 require 'spec_helper'
-require 'robot'
-require 'states/position_state'
-require 'states/x_position_state'
-require 'states/y_position_state'
-require 'states/north_state'
 
 describe Robot do
   let(:robot) { Robot.new }

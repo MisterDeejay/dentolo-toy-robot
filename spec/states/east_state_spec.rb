@@ -1,7 +1,4 @@
 require 'spec_helper'
-require 'states/east_state'
-require 'states/north_state'
-require 'states/south_state'
 
 describe EastState do
   let(:direction) { EastState.new }

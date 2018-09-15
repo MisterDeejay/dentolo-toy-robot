@@ -1,18 +1,4 @@
 require 'spec_helper'
-require 'board'
-require 'robot'
-require 'commands/command'
-require 'commands/move_command'
-require 'states/position_state'
-require 'states/x_position_state'
-require 'states/y_position_state'
-require 'states/north_state'
-require 'states/east_state'
-require 'states/west_state'
-require 'states/south_state'
-require 'errors/robot_simulator_error'
-require 'errors/invalid_position_error'
-require_relative '../shared_examples/commands'
 
 describe MoveCommand do
   it_behaves_like 'a command' do
