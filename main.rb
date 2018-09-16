@@ -1,3 +1,15 @@
+# This program takes is a Toy Robot Simulator
+# that take in commands via the the command
+# line. To initially place the robot, use the
+# PLACE command to place the robot on the 5x5
+# table. The robot then reads successive
+# commands to move and turn in different
+# directions. To exit the program simply type
+# EXIT
+#
+# Author::    Khaaliq DeJan  (mailto:khaaliqdejan@gmail.com)
+# Copyright:: Copyright (c) 2018
+
 require_relative 'lib/board'
 require_relative 'lib/robot'
 require_relative 'lib/command_parser'
